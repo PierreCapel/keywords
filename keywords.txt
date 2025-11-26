@@ -6,7 +6,7 @@ php bin/console importmap:require response client request withOptions setBaseUri
 
 messenger:setup-transports MessageBusInterface dispatch transports doctrine routing Collection LiveAction messenger:consume retry-strategy failed-transport sync-transport stimulus_controller data-controller data-action data-target Api-Platform deps.lock
 
-SensioLabs sfContext::getInstance() SensioFrameworkExtraBundle Symfony-Flex doctrine/orm Composer Packagist Monolog Twig Blackfire Platform.sh Upsun SymfonyInsight SymfonyCasts KnpUniversity Webpack MakerBundle doctrine:fixtures:load make:controller make:entity Turbo Hotwire doctrine/dbal 
+SensioLabs SensioFrameworkExtraBundle flex doctrine/orm Composer Packagist Monolog Twig Blackfire Platform.sh Upsun SymfonyInsight SymfonyCasts KnpUniversity Webpack MakerBundle doctrine:fixtures:load make:controller make:entity Turbo Hotwire doctrine/dbal sfContext::getInstance() 
 
 security:hash-password PasswordAuthenticatedUserInterface UserPasswordHasherInterface passwordHasher hashPassword ROLE_ADMIN InteractiveLoginEvent Voter Security isGranted authenticationSuccessListener csrfTokenManager #[AsVoter] IS_AUTHENTICATED_FULLY 
 
