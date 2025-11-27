@@ -6,27 +6,27 @@ php bin/console importmap:require response client request withOptions setBaseUri
 
 messenger:setup-transports MessageBusInterface dispatch transports doctrine routing Collection LiveAction messenger:consume retry-strategy failed-transport sync-transport stimulus_controller data-controller data-action data-target Api-Platform deps.lock
 
-SensioLabs SensioFrameworkExtraBundle flex doctrine/orm Composer Packagist Monolog Twig Blackfire Platform.sh Upsun SymfonyInsight SymfonyCasts KnpUniversity Webpack MakerBundle doctrine:fixtures:load make:controller make:entity Turbo Hotwire doctrine/dbal sfContext::getInstance() 
+SensioLabs SensioFrameworkExtraBundle flex doctrine/orm Composer Packagist Monolog Twig Blackfire Platform.sh Upsun SymfonyInsight SymfonyCasts KnpUniversity Webpack MakerBundle doctrine:fixtures:load make:controller make:entity Turbo Hotwire doctrine/dbal sfContext::getInstance
 
-security:hash-password PasswordAuthenticatedUserInterface UserPasswordHasherInterface passwordHasher hashPassword ROLE_ADMIN InteractiveLoginEvent Voter Security isGranted authenticationSuccessListener csrfTokenManager #[AsVoter] IS_AUTHENTICATED_FULLY 
+security:hash-password PasswordAuthenticatedUserInterface UserPasswordHasherInterface passwordHasher hashPassword ROLE_ADMIN InteractiveLoginEvent Voter Security isGranted authenticationSuccessListener csrfTokenManager AsVoter IS_AUTHENTICATED_FULLY 
 
-$request->query->all() symfony/clock Clock now format MockClock AsClock ClockInterface DateTimeImmutable Clock::get()->now() MockClock addMethodCall #[AsTaggedItem] ServiceLocator ServiceSubscriberInterface configureRoutes registerCommands Easyadmin
+symfony/clock Clock now format MockClock AsClock ClockInterface DateTimeImmutable  MockClock addMethodCall AsTaggedItem ServiceLocator ServiceSubscriberInterface configureRoutes registerCommands Easyadmin
 
-composer require symfony/test-pack #[AsCommand] make:test WebTestCase Response createClient request assertResponseIsSuccessful bin/console debug:router debug:autowiring debug:container debug:event-dispatcher cache:clear about TestCase assertSame assertSelectorTextContains assertResponseStatusCodeSame assertPageTitleContains
+composer require symfony/test-pack AsCommand make:test WebTestCase Response createClient request assertResponseIsSuccessful bin/console debug:router debug:autowiring debug:container debug:event-dispatcher cache:clear about TestCase assertSame assertSelectorTextContains assertResponseStatusCodeSame assertPageTitleContains
 
-LazyGhostTrait LazyProxyTrait initializeLazyObject LazyProxy LazyGhost ResetInterface UUIDv7::generate() UUIDv7::fromString() #[AsSchedule] frequency ExtendsValidationFor MsgPackMarshaller FrankenPHP #[AsMessageHandler]
+LazyGhostTrait LazyProxyTrait initializeLazyObject LazyProxy LazyGhost ResetInterface UUIDv7::generate UUIDv7::fromString AsSchedule frequency ExtendsValidationFor MsgPackMarshaller FrankenPHP AsMessageHandler
 
-AsEntityAutocompleteField Autocomplete UxChart::new() addDataset setLabels TypedArray AiInterface ChatModelInterface EmbeddingModelInterface LlmInterface ChatMessage::user() assistant() system() Anthropic::class OpenAI::class MistralAI::class #[AsAiModel] AiModelRegistry
+AsEntityAutocompleteField Autocomplete UxChart::new addDataset setLabels TypedArray AiInterface ChatModelInterface EmbeddingModelInterface LlmInterface ChatMessage::user assistant system Anthropic::class OpenAI::class MistralAI::class AsAiModel AiModelRegistry
 
-PromptTemplate::render() AssetMapperConfigurationException TranslatableMessage::trans() setTranslationDomain() RequestPayloadArgumentResolver JsonPayload MapRequestPayload MapQueryString $this->denyAccessUnlessGranted('IS_AUTHENTICATED_FULLY')
+PromptTemplate::render AssetMapperConfigurationException TranslatableMessage::trans setTranslationDomain RequestPayloadArgumentResolver JsonPayload MapRequestPayload MapQueryString 
 
 DependencyInjection\ContainerBuilder SecurityAuthenticationSuccessHandlerInterface EventDispatcher\EventSubscriberInterface ParameterBag::resolveValue kernel.project_dir EventDispatcher::addListener kernel.request registerForAutoconfiguration addTag
 
 Personal-Home-Page-Tools Zend-Engine declare(strict_types=1) PHP-RFC JIT-Compiler Opcache preload.php Xdebug step-debugging xdebug.mode=coverage xdebug.start_with_request PHPUnit\Framework\TestCase phpstan-level-max psalm-level-1
 
-#[AsEntityAutocompleteField] route admin_user_autocomplete #[AsMessageHandler] fromTransport priority Security::getUser() getRoles() RequestStack::getCurrentRequest() getClientIp()
+[AsEntityAutocompleteField] route admin_user_autocomplete AsMessageHandler fromTransport priority Security::getUser getRoles RequestStack::getCurrentRequest getClientIp
 
-Route methods GET POST requirements IsGranted ROLE_ADMIN message statusCode Cache expires public mustRevalidate ParamConverter #[AsMessageHandler] handles match draft published default
+Route methods GET POST requirements IsGranted ROLE_ADMIN message statusCode Cache expires public mustRevalidate ParamConverter AsMessageHandler handles match draft published default
 messenger:consume time-limit memory-limit ContainerBuilder::findDefinition EventDispatcher::addSubscriber getSubscribedEvents instanceof UserInterface AccessDeniedException
 
-debug:container show-arguments show-private #[AsLiveComponent] ContainerBuilder::getExtension AbstractController::json array_map Happy-20th-Birthday-Symfony Amazing-Framework-Contributors #[AsBoss(name: 'ThisIsTheUltimateBossOfTheGameThankYouForPlayingItAndHappy20thBirthdaySymfony<3')
+debug:container show-arguments show-private AsLiveComponent ContainerBuilder::getExtension AbstractController::json array_map Happy-20th-Birthday-Symfony Amazing-Framework-Contributors #[AsBoss(name: 'ThisIsTheUltimateBossOfTheGameThankYouForPlayingItAndHappy20thBirthdaySymfony<3')
